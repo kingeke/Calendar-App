@@ -47,6 +47,10 @@ class ProfileController extends Controller
     {
         $user = $this->user;
 
+        if ($user->email == 'user@email.com') {
+            return $this->responseCodes('error', 'Dummy account can not be updated');
+        }
+
         if (Hash::check($request->currentPassword, $user->password)) {
 
             $user->update(['password' => $request->password]);
@@ -64,6 +68,10 @@ class ProfileController extends Controller
      */
     public function updateProfile(UpdateProfileRequest $request)
     {
+        if ($this->user->email == 'user@email.com') {
+            return $this->responseCodes('error', 'Dummy account can not be updated');
+        }
+
         $this->user->update($request->all());
 
         return $this->responseCodes('success', 'Profile updated successfully');
