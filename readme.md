@@ -6,8 +6,6 @@ This calendar app help users manage their day to day appointments. You can view 
 
 ## Features
 
----
-
 -   Create appointments for different times in a day.
 -   Edit/Delete an appointment.
 -   Export appointments to Excel or PDF.
@@ -19,8 +17,6 @@ This calendar app help users manage their day to day appointments. You can view 
 # Getting started
 
 ## Installation
-
----
 
 Please check the official laravel installation guide for server requirements before you start. [Official Documentation](https://laravel.com/docs/5.8/installation)
 

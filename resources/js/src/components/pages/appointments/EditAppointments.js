@@ -137,7 +137,7 @@ export class EditAppointment extends Component {
                                 onChange={this.handleChange}
                             />
                             <Row>
-                                <Col>
+                                <Col sm={6}>
                                     <StartDate
                                         onChange={this.handleDateChange}
                                         start={startSelected}
