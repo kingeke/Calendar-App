@@ -1,0 +1,114 @@
+.bg-silver {
+    background-color: rgb(152, 152, 152);
+    border-color: white;
+}
+
+.calendar-table.month p {
+    background-color: rgba(238, 236, 236, 0.2);
+}
+
+.calendar-table.month p span {
+    cursor: pointer;
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px;
+    transition: background-color ease 1s;
+}
+
+.calendar-table.month p:hover .date {
+    background-color: rgb(216, 216, 216);
+}
+
+.calendar-table.month p.active span,
+.calendar-table.week th.active {
+    background-color: #28a745 !important;
+    color: white;
+}
+
+.calendar-table.week th,
+.calendar-table.week td {
+    white-space: nowrap;
+}
+
+.calendar-table.week div.active {
+    padding: 5px;
+    background-color: #28a745 !important;
+    color: white;
+    min-height: 60px;
+    width: 100%;
+    border-radius: 10px;
+    text-align: center;
+    margin: auto auto;
+}
+
+.calendar-table.week td.active {
+    border: 0px;
+}
+
+.calendar-table {
+    cursor: pointer;
+}
+
+/*     Alert    */
+[data-notify="container"] {
+    border: 0px;
+    color: #ffffff;
+    position: relative;
+    padding-left: 70px;
+    right: 5px !important;
+}
+
+.hidden {
+    display: none;
+}
+
+.alert [data-notify="icon"] {
+    font-size: 30px;
+    display: block;
+    left: 25px;
+    position: absolute;
+    top: 50%;
+    margin-top: -15px;
+}
+
+.alert [data-notify="title"] {
+    display: block;
+    font-weight: bold;
+}
+
+.alert [data-notify="message"] {
+    font-size: 14px;
+}
+
+[data-notify="progressbar"] {
+    margin-bottom: 0px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 5px;
+}
+
+.alert .close {
+    color: white;
+}
+
+.alert-primary {
+    background-color: #1D62F0;
+}
+
+.alert-info {
+    background-color: #23CCEF;
+}
+
+.alert-success {
+    background-color: #59d05d;
+}
+
+.alert-warning {
+    background-color: #fbad4c;
+}
+
+.alert-danger {
+    background-color: #ff646d;
+}
