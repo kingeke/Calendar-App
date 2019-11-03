@@ -48,7 +48,7 @@ Generate a new JWT token key
 
     php artisan jwt:secret
 
-**Make sure you set the correct database connection information before running the migrations** [Environment variables](#environment-variables)
+**Make sure you set the correct database connection information before running the migrations**
 
     php artisan migrate
 
