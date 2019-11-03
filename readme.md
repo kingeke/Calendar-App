@@ -4,7 +4,17 @@ This repo is the submission of Chinonso Eke's Prompt Therapy Job Application Cha
 
 This calendar app help users manage their day to day appointments. You can view a demo here [Demo](https://calendar-appointments.herokuapp.com/)
 
+## Features
+
 ---
+
+-   Create appointments for different times in a day.
+-   Edit/Delete an appointment.
+-   Export appointments to Excel or PDF.
+-   Print appointments.
+-   Multiple appointment views (Month, Week, Appointments).
+-   Importing old appointments.
+-   Auto mark an appointment as completed if the end date has passed.
 
 # Getting started
 
