@@ -14,7 +14,7 @@
     <link href="{{ asset('lib/bootstrap-datetimepicker/bootstrap-datetimepicker.css') }}" rel="stylesheet">
     {{-- datatables --}}
     <link rel="stylesheet" type="text/css" href="{{ asset('lib/datatables/datatables.min.css') }}" />
-    <link rel="stylesheet" href="http://jeremyfagis.github.io/dropify/dist/css/dropify.min.css">
+    <link rel="stylesheet" href="https://jeremyfagis.github.io/dropify/dist/css/dropify.min.css">
     <script src="{{ asset('lib/jquery/jquery.min.js') }}"></script>
     <title>Calendar App</title>
 </head>
