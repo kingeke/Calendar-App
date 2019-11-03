@@ -1,4 +1,4 @@
-export const endpoint = 'http://127.0.0.1:8000'
+export const endpoint = window.location.origin
 export const api = `${endpoint}/api`
 
 export const userAPILinks = {
