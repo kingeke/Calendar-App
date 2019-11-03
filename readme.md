@@ -48,20 +48,19 @@ Generate a new JWT token key
 
     php artisan jwt:secret
 
-Run the database migrations (**Set the database connection in .env before migrating**)
+**Make sure you set the correct database connection information before running the migrations** [Environment variables](#environment-variables)
 
     php artisan migrate
+
+Seed database to have access to dummy user
+
+    php artisan db:seed
 
 Start the local development server
 
     php artisan serve
 
 You can now access the server at http://127.0.0.1:8000
-
-**Make sure you set the correct database connection information before running the migrations** [Environment variables](#environment-variables)
-
-    php artisan migrate
-    php artisan serve
 
 # Testing
 
