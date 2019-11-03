@@ -2,7 +2,7 @@
 
 This repo is the submission of Chinonso Eke's Prompt Therapy Job Application Challenge.
 
-This calendar app help users manage their day to day appointments. You can view a demo here [Demo](https://laravel.com/docs/5.8/installation)
+This calendar app help users manage their day to day appointments. You can view a demo here [Demo](https://calendar-appointments.herokuapp.com/)
 
 ---
 
