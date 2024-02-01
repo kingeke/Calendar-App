@@ -14,11 +14,11 @@
         },
         {
             "src": "/(.*)",
-            "dest": "/public/index.php"
+            "dest": "/api/index.php"
         }
     ],
     "env": {
-        "APP_ENV": "staging",
+        "APP_ENV": "local",
         "APP_DEBUG": "true",
         "APP_VERCEL": "true",
         "APP_KEY": "base64:2JTe2cU6Pyv5uQYkg/j5B0T8XLEkGCdHm3bPFZ8B11Y=",
