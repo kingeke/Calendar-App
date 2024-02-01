@@ -2,9 +2,13 @@
     "version": 2,
     "framework": null,
     "functions": {
-        "api/index.php": { "runtime": "vercel-php@0.3.5" }
+        "api/index.php": { "runtime": "vercel-php@0.3.5" },
     },
     "routes": [
+        {
+            "src": "/(css|js)/(.*)",
+            "dest": "public/$1/$2"
+        },
         {
             "src": "/(.*)",
             "dest": "/api/index.php"
