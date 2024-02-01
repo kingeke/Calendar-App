@@ -11,7 +11,7 @@
             "use": "vercel-php@0.3.5"
         },
         {
-            "src": "public/index.php", 
+            "src": "public/index.php",
             "use": "vercel-php@0.3.5"
         }
     ],
@@ -44,5 +44,10 @@
         "CACHE_DRIVER": "array",
         "LOG_CHANNEL": "stderr",
         "SESSION_DRIVER": "cookie"
+    },
+    "build": {
+        "scripts": {
+            "build": "cd resources/js && npm install && npm run prod"
+        }
     }
 }
