@@ -2,23 +2,13 @@
     "version": 2,
     "framework": null,
     "builds": [
-        { "src": "/api/index.php", "use": "vercel-php@0.3.5" },
-        { "src": "/resources/js/src/**", "use": "@vercel/static" }
+        { "src": "/api/index.php", "use": "vercel-php@0.3.5" }
     ],
     "outputDirectory": "public",
     "routes": [
         {
             "src": "/(css|js|lib)/(.*)",
             "dest": "public/$1/$2"
-        },
-        {
-            "src": "/build/(.*)",
-            "dest": "/build/$1"
-        },
-        {
-            "src": "/api/auth/login",
-            "methods": ["POST"],
-            "dest": "/api/index.php"
         },
         {
             "src": "/(.*)",
