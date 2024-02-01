@@ -6,7 +6,7 @@
         {
             "src": "resources/js/**",
             "use": "@vercel/static-build",
-            "config": { "useOutputDirectory": true, "distDir": "public/js" }
+            "config": { "outputDirectory": "public/js" }
         }
     ],
     "routes": [
