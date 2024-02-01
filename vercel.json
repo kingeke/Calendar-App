@@ -3,7 +3,7 @@
     "framework": null,
     "builds": [
         { "src": "/api/index.php", "use": "vercel-php@0.3.5" },
-        { "src": "/public/**", "use": "@vercel/static" }
+        { "src": "/resources/js/src/**", "use": "@vercel/static" }
     ],
     "outputDirectory": "public",
     "routes": [
