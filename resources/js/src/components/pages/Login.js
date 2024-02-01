@@ -82,7 +82,7 @@ export class Login extends Component {
                     <div className="text-center">
                         <h4>Welcome back.</h4>
                         <Hr />
-                        <p>Hope you know your credentials ode.</p>
+                        <p>Hope you know your credentials.</p>
                     </div>
                     <FormLayout>
                         <Form ref={this.formRef} className="form-section" onSubmit={this.handleSubmit}>

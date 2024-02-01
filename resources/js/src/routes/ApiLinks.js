@@ -1,5 +1,5 @@
 export const endpoint = window.location.origin
-export const api = `${endpoint}/backend`
+export const api = `${endpoint}/api`
 
 export const userAPILinks = {
     login: `${api}/auth/login`,

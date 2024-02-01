@@ -2,7 +2,7 @@
     "version": 2,
     "framework": null,
     "functions": {
-        "api/index.php": {
+        "vercel-api/index.php": {
             "runtime": "vercel-php@0.3.5"
         }
     },
@@ -18,7 +18,7 @@
         }
     ],
     "env": {
-        "APP_ENV": "production",
+        "APP_ENV": "staging",
         "APP_DEBUG": "true",
         "APP_VERCEL": "true",
         "APP_KEY": "base64:2JTe2cU6Pyv5uQYkg/j5B0T8XLEkGCdHm3bPFZ8B11Y=",
@@ -31,6 +31,6 @@
         "CACHE_DRIVER": "array",
         "LOG_CHANNEL": "stderr",
         "SESSION_DRIVER": "cookie",
-        "JWT_SECRET": "SqJqbSgcBhMT4gDtTAvTD6V7XMv9YZT1J0kvCI6UBIglNgzsTa2gkP5DsR8wqyVb"
+        "JWT_SECRET": "demosecret"
     }
 }
