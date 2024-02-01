@@ -7,9 +7,6 @@
             "use": "@vercel/node"
         }
     ],
-    "functions": {
-        "api/index.php": { "runtime": "vercel-php@0.3.5" }
-    },
     "outputDirectory": "public",
     "routes": [
         {
