@@ -1,10 +1,14 @@
 {
     "version": 2,
     "framework": null,
-    "functions": {
-        "api/index.php": { "runtime": "vercel-php@0.3.5" }
-    },
-    "outputDirectory": "public",
+    "builds": [
+        { "src": "public/**/*", "use": "@vercel/static" },
+        {
+            "src": "resources/js/**",
+            "use": "@vercel/static-build",
+            "config": { "useOutputDirectory": true, "distDir": "public/js" }
+        }
+    ],
     "routes": [
         {
             "src": "/(css|js|lib)/(.*)",
@@ -33,5 +37,10 @@
         "CACHE_DRIVER": "array",
         "LOG_CHANNEL": "stderr",
         "SESSION_DRIVER": "cookie"
+    },
+    "build": {
+        "scripts": {
+            "build": "cd resources/js && npm install && npm run build"
+        }
     }
 }
