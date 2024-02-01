@@ -5,6 +5,10 @@
         {
             "src": "package.json",
             "use": "@vercel/node"
+        },
+        {
+            "src": "composer.json",
+            "use": "vercel-php@0.3.5"
         }
     ],
     "outputDirectory": "public",
