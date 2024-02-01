@@ -4,9 +4,6 @@
     "functions": {
         "api/index.php": {
             "runtime": "vercel-php@0.3.5"
-        },
-        "package.json": {
-            "runtime": "@vercel/node"
         }
     },
     "outputDirectory": "public",
