@@ -7,12 +7,12 @@
     "outputDirectory": "public",
     "routes": [
         {
-            "src": "/build/(.*)",
-            "dest": "/build/$1"
-        },
-        {
             "src": "/(css|js)/(.*)",
             "dest": "public/$1/$2"
+        },
+        {
+            "src": "/build/(.*)",
+            "dest": "/build/$1"
         },
         {
             "src": "/(.*)",
