@@ -21,6 +21,11 @@ class AppServiceProvider extends ServiceProvider
     {
         Schema::defaultStringLength(191);
 
+        if (env("APP_VERCEL")) {
+
+            \Illuminate\Support\Facades\URL::forceScheme('https');
+        }
+
         if (env('REDIRECT_HTTPS')) {
             $this->app['request']->server->set('HTTPS', true);
         }
