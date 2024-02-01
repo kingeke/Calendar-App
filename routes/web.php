@@ -11,11 +11,4 @@
 |
 */
 
-Route::post('/test', function () {
-
-    return response()->json([
-        'status' => 'success'
-    ]);
-});
-
 Route::view('/{path?}', 'index')->where('path', '.*');

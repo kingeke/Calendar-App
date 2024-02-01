@@ -30,6 +30,7 @@
         "VIEW_COMPILED_PATH": "/tmp",
         "CACHE_DRIVER": "array",
         "LOG_CHANNEL": "stderr",
-        "SESSION_DRIVER": "cookie"
+        "SESSION_DRIVER": "cookie",
+        "JWT_SECRET": "SqJqbSgcBhMT4gDtTAvTD6V7XMv9YZT1J0kvCI6UBIglNgzsTa2gkP5DsR8wqyVb"
     }
 }
