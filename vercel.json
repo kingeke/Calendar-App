@@ -15,12 +15,7 @@
             "dest": "/build/$1"
         },
         {
-            "src": "/api/(.*)",
-            "dest": "/api/index.php"
-        },
-        {
-            "src": "/api/.*",
-            "methods": ["POST"],
+            "src": "/api/*",
             "dest": "/api/index.php"
         },
         {
