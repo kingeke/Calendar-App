@@ -45,9 +45,5 @@
         "LOG_CHANNEL": "stderr",
         "SESSION_DRIVER": "cookie"
     },
-    "build": {
-        "scripts": {
-            "build": "cd resources/js && npm install && npm run prod"
-        }
-    }
+    "buildCommand": "npm run prod"
 }
