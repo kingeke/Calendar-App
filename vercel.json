@@ -1,20 +1,14 @@
 {
     "version": 2,
     "framework": null,
-    "builds": [
-        {
-            "src": "package.json",
-            "use": "@vercel/node"
+    "functions": {
+        "package.json": {
+            "runtime": "@vercel/node"
         },
-        {
-            "src": "composer.json",
-            "use": "vercel-php@0.3.5"
-        },
-        {
-            "src": "api/index.php",
-            "use": "vercel-php@0.3.5"
+        "api/index.php": {
+            "runtime": "vercel-php@0.3.5"
         }
-    ],
+    },
     "outputDirectory": "public",
     "routes": [
         {
