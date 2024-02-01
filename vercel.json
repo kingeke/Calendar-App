@@ -7,7 +7,7 @@
     "outputDirectory": "public",
     "routes": [
         {
-            "src": "/(css|js)/(.*)",
+            "src": "/(css|js|lib)/(.*)",
             "dest": "public/$1/$2"
         },
         {
