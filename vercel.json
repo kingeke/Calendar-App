@@ -2,11 +2,11 @@
     "version": 2,
     "framework": null,
     "functions": {
-        "package.json": {
-            "runtime": "@vercel/node"
-        },
         "api/index.php": {
             "runtime": "vercel-php@0.3.5"
+        },
+        "package.json": {
+            "runtime": "@vercel/node"
         }
     },
     "outputDirectory": "public",
@@ -38,6 +38,5 @@
         "CACHE_DRIVER": "array",
         "LOG_CHANNEL": "stderr",
         "SESSION_DRIVER": "cookie"
-    },
-    "buildCommand": "npm run prod"
+    }
 }
