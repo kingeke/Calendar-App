@@ -11,7 +11,7 @@
             "use": "vercel-php@0.3.5"
         },
         {
-            "src": "public/index.php",
+            "src": "api/index.php",
             "use": "vercel-php@0.3.5"
         }
     ],
