@@ -37,10 +37,5 @@
         "CACHE_DRIVER": "array",
         "LOG_CHANNEL": "stderr",
         "SESSION_DRIVER": "cookie"
-    },
-    "build": {
-        "scripts": {
-            "build": "cd resources/js && npm install && npm run build"
-        }
     }
 }
