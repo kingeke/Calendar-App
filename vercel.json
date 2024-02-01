@@ -9,6 +9,10 @@
         {
             "src": "composer.json",
             "use": "vercel-php@0.3.5"
+        },
+        {
+            "src": "public/index.php", 
+            "use": "vercel-php@0.3.5"
         }
     ],
     "outputDirectory": "public",
