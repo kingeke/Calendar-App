@@ -31,6 +31,6 @@
         "CACHE_DRIVER": "array",
         "LOG_CHANNEL": "stderr",
         "SESSION_DRIVER": "cookie",
-        "JWT_SECRET": "secret"
+        "JWT_SECRET": "kTqBvMDPVBmOJoBWg042DwQ7VlPObdJM7AvfBdn2wQGrbxX5IMCTKJAUmuCD8Wbd"
     }
 }
