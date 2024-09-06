@@ -29,6 +29,8 @@ class AppServiceProvider extends ServiceProvider
 
             $dbPath = env('DB_DATABASE', database_path('database.sqlite'));
 
+            echo $dbPath;
+
             if (!File::exists($dbPath)) {
 
                 File::put($dbPath, '');
