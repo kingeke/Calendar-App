@@ -27,9 +27,7 @@ class AppServiceProvider extends ServiceProvider
 
             \Illuminate\Support\Facades\URL::forceScheme('https');
 
-            $dbPath = env('DB_DATABASE', database_path('database.sqlite'));
-
-            echo $dbPath;
+            $dbPath = env('DB_DATABASE');
 
             if (!File::exists($dbPath)) {
 
